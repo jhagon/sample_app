@@ -21,6 +21,7 @@ gem 'sqlite3'
 # gem 'bj'
 # gem 'nokogiri'
  gem 'sqlite3-ruby', :require => 'sqlite3'
+ gem 'gravatar_image_tag'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
@@ -33,4 +34,5 @@ gem 'sqlite3'
  group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'factory_girl_rails'
  end
